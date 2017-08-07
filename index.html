@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+<script type="text/javascript">
+  function unhide(divID) {
+    var item = document.getElementById(divID);
+    if (item) {
+      item.className=(item.className=='hidden')?'unhidden':'hidden';
+    }
+  }
+
+  function inPress() {
+    alert("Art\xEDculo en prensa. El texto completo estar\xE1 disponible pr\xF3ximamente.");
+  }
+  function inPrep() {
+    alert("Art\xEDculo en proceso de edici\xF3n y formateo. El texto completo estar\xE1 disponible pr\xF3ximamente.");
+  }
+</script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 45px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+.section h2 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h3 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h4 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h5 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h6 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Revista UniNorte de Medicina y Ciencias de la Salud</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="v06_01.html">Volumen actual</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Volúmenes previos
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="v01.html">Vol. 1 (2012)</a>
+    </li>
+    <li>
+      <a href="v02.html">Vol. 2 (2013)</a>
+    </li>
+    <li>
+      <a href="v03.html">Vol. 3 (2014)</a>
+    </li>
+    <li>
+      <a href="v04.html">Vol. 4 (2015)</a>
+    </li>
+    <li>
+      <a href="v05.html">Vol. 5 (2016)</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="v06_02.html">Artículos en prensa</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<div id="section" class="section level1 tabset tabset-pills tabset-fade">
+<h1></h1>
+<div id="acerca-de" class="section level2">
+<h2>Acerca de</h2>
+<div id="mision" class="section level3">
+<h3>Misión</h3>
+<p>La misión de la <strong>Revista UniNorte de Medicina y Ciencias de la Salud</strong> es la de publicar artículos del área de Ciencias de la Salud que contribuyan al mejor entendimiento de las enfermedades humanas, incluyendo la biología, etiología, patogénesis, fisiopatología, diagnóstico clínico y laboratorial, tratamiento, pronóstico, y seguimiento clínico, manteniendo elevados estándares internacionales de calidad científica. Los artículos se publican sin costos para los autores.</p>
+</div>
+<div id="alcance" class="section level3">
+<h3>Alcance</h3>
+<p>La Revista acepta libremente artículos científicos de Investigación Original y de Reporte de Casos de cualquiera de las áreas de las Ciencias de la Salud, incluyendo Bioquímica, Odontología, Enfermería, Nutrición, Psicología, Fisioterapia y Kinesiología, Medicina y ciencias relacionadas. La revista publica además Editoriales, Revisiones, y Perspectivas en Medicina.</p>
+</div>
+</div>
+<div id="comite-editorial" class="section level2">
+<h2>Comité Editorial</h2>
+<div id="editor-en-jefe" class="section level3">
+<h3>Editor-en-Jefe</h3>
+<p><strong>Alcides Chaux, M.D.</strong><br />
+Universidad del Norte<br />
+Dirección de Investigación y Divulgación Científica<br />
+Gral. Santos e/ 25 de Mayo<br />
+Teléfono: +595 (021) 203-108, interno 148<br />
+Fax: +595 (021) 203-108, interno 102<br />
+<a href="mailto:alcideschaux@uninorte.edu.py">alcideschaux@uninorte.edu.py</a></p>
+<p> </p>
+</div>
+</div>
+<div id="comite-cientifico" class="section level2">
+<h2>Comité Científico</h2>
+<div id="miembros-nacionales" class="section level3">
+<h3>Miembros nacionales</h3>
+<ul>
+<li><p><strong>Juan Carlos Chaparro, M.D.</strong><br />
+Facultad de Medicina, Universidad del Norte, Asunción, Paraguay</p></li>
+<li><p><strong>Beatriz Bontempi de Rodríguez-Alcalá, D.D.S.</strong><br />
+Facultad de Ciencias de la Salud, Universidad del Norte, Asunción, Paraguay</p></li>
+</ul>
+<p> </p>
+</div>
+<div id="miembros-internacionales" class="section level3">
+<h3>Miembros internacionales</h3>
+<ul>
+<li><p><strong>George J. Netto, M.D.</strong><br />
+University of Alabama School of Medicine, University of Alabama at Birmingham, Alabama, USA</p></li>
+<li><p><strong>Aaron Ciechanover, Ph.D.</strong><br />
+The Rappaport Faculty of Medicine and Research e Institute, Technion-Israel Institute of Technology, Israel - Premio Nobel de Química 2004</p></li>
+<li><p><strong>Marc D. Basson, M.D., Ph.D., MBA., FACS</strong><br />
+College of Human Medicine, Michigan State University, USA</p></li>
+<li><p><strong>Hiroshi Miyamoto, M.D., Ph.D.</strong><br />
+University of Rochester Medical Center, Rochester, New York, USA</p></li>
+<li><p><strong>Bora Gurel, M.D.</strong><br />
+Amasya Sabuncuoglu Serefeddin Government Hospital, Amasya, Turkey</p></li>
+<li><p><strong>Chris F. Heyns, M.D., Ph.D.</strong><br />
+Stellenbosch University &amp; Tygerberg Hospital, Tygerberg, South Africa</p></li>
+<li><p><strong>Michael C. Haffner, M.D., Ph.D.</strong><br />
+Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, Maryland, USA</p></li>
+</ul>
+</div>
+</div>
+<div id="instrucciones-para-autores" class="section level2">
+<h2>Instrucciones para autores</h2>
+<p> </p>
+<ul>
+<li>Todos los artículos de Investigación Original y de Reporte de Casos, incluyendo el texto, tablas, figuras, y dibujos, deberán ser enviados por correo electrónico al Editor-en-Jefe de la Revista. Los archivos enviados tienen que estar etiquetados con nombres apropiados y descriptivos (e.g., GonzalezTexto.doc, Figura1.tif, Tabla3.doc). Los autores deben enviar las tablas y los gráficos como archivos separados, y no incluir las figuras y las tablas dentro del texto del artículo.</li>
+<li>El artículo remitido, incluyendo las referencias bibliográficas y las leyendas, deberá ser tecleado a doble espacio, usando como fuente únicamente Times New Roman 12 puntos color negro. Para superíndices o subíndices se deberá utilizar Times New Roman 10 puntos color negro. El trabajo de investigación deberá ser tecleado en hoja blanca tamaño carta, a carilla simple, y con márgenes de 2.5 cm a cada uno de los lados.</li>
+<li>Cada artículo de Investigación Original deberá contar con las siguientes secciones: a) Página de inicio; b) Resumen; c) Introducción; d) Materiales y métodos; e) Discusión; f) Conclusión; g) Referencias. El título de cada sección deberá ser escrito en mayúsculas y negritas. Cada sección deberá comenzar en una hoja por separado.</li>
+<li>Cada Reporte de Casos deberá contar con las siguientes secciones: a) Página de inicio; b) Resumen; c) Introducción; d) Presentación del caso; e) Discusión; f) Referencias. El título de cada sección deberá ser escrito en mayúsculas y negritas. Cada sección deberá comenzar en una hoja por separado.</li>
+<li>En la página de inicio se deberá incluir el o los nombres de los autores, afiliaciones institucionales o corporativas, 3 a 5 palabras clave, el número total de palabras del artículo, el número total de tablas o figuras, y la dirección de correo, teléfono, fax, y correo electrónico del autor corresponsal. Asimismo, cualquier reconocimiento colaborativo, subsidios, o financiamiento deberá ser incluido en la página de inicio.</li>
+<li>El número máximo de palabras que puede contener el artículo de Investigación Original es de 6.000 palabras, incluyendo el texto, las referencias, las tablas, y las leyendas de las figuras. El Resumen no deberá contener más de 250 palabras.</li>
+<li>El número máximo de palabras que puede contener el Reporte de Casos es de 2.500 palabras, incluyendo el texto, las referencias, las tablas, y las leyendas de las figuras. El Resumen no deberá contener más de 150 palabras.</li>
+<li>Los autores podrán usar abreviaciones estándar sin explicaciones. Las abreviaciones no estándares deberán ser definidas cuando aparezcan por primera vez, y luego abreviadas de ahí en adelante. El uso de letras griegas, cursivas, superíndices y subíndices está permitido, y deberá ser consistente en todo el artículo.</li>
+<li>Los autores deberán incluir las citas bibliográficas entre corchetes en el texto y escribir la referencia al final del texto. Las referencias bibliográficas deben ser insertadas en el orden de citación y numeradas consecutivamente. No se aceptarán más de 30 referencias bibliográficas para artículos de Investigación Original y más de 15 para Reporte de Casos. Las citas y las referencias bibliográficas deberán conformarse a lo establecido en las Normas de Vancouver.</li>
+<li>Las “comunicaciones personales” y las “observaciones no publicadas” deben ser especificadas en el texto pero excluidas de la bibliografía. La información contenida en artículos enviados para evaluación pero todavía no aceptados para publicación debe ser citada en el texto como “observaciones no publicadas”.</li>
+<li>Cada artículo de Investigación Original o Reporte de Casos podrá contener un número ilimiatdo de figuras y tablas. Las imágenes deberán tener el formato TIF o EPS. Para crear dibujos se deberán utilizar programas de diseño gráfico como PhotoShop o Illustrator, y no PowerPoint, CorelDraw, o Harvard Graphics. Las imágenes a color y las en blanco y negro deberán ser CMYK, de por lo menos 600 DIP de resolución. Las combinaciones de figuras en escala de grises y dibujos deberán tener al menos 1200 DPI. Los dibujos (sean en color o en blanco y negro) deberán tener por lo menos 1200 DPI.</li>
+<li>Ilustraciones, tablas, y citaciones extensas que hayan sido tomadas de otra fuentes deberán ser identificadas plenamente, indicando el autor original y el sitio de publicación previo. Se deberá obtener permiso escrito del autor y de la editorial en estos casos. Los autores serán responsables por obtener el permiso para el uso, tanto impreso como electrónico, de todos los materiales publicados previamente, siendo también responsables de cubrir los costos asociados con la obtención de estos permisos. Los documentos que avalan tales permisos deberán ser enviados junto con el artículo.</li>
+<li>Acompañando a las copias del trabajo de investigación se deberá enviar una carta de presentación dirigida al Editor-en-Jefe de la Revista en la que conste el título del artículo, los autores, la especificación de que todos los autores han revisado y aprobado el artículo remitido (en el caso de que haya más de un autor), y la especificación de que el artículo no ha sido publicado anteriormente ni se encuentra bajo consideración de publicación en ninguna revista o cualquier medio de difusión escrita o digital. La carta de presentación deberá ser firmada por el autor corresponsal.</li>
+<li>Los artículos revisados deben incluir además un documento por separado con la respuesta a los comentarios de los revisores. El orden preferido para estos documentos es el siguiente: carta de presentación, respuesta a los revisores (únicamente en los artículos revisados), documentos del artículo, tablas, y figuras.</li>
+<li>Los artículos que no cumplan con todos estos requerimientos serán devueltos a los autores para su corrección.</li>
+</ul>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
