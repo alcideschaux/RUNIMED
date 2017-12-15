@@ -1,0 +1,61 @@
+---
+title: "Volumen 5 (2016)"
+output:
+    html_document:
+        toc: false
+---
+
+# Tabla de contenidos
+## Fisioterapia y Kinesiología
+- **Evaluación de la edad madurativa de los recién nacidos a pretérmino por medio de la Escala de Brunet-Lezine en niños que asisten al Consultorio de Fisioterapia en el Hospital Materno Infantil San Pablo**  
+Lara Gabriela Delgado Aranda   
+<a href="javascript:unhide('v05a01res');">[Resumen]</a>
+[[Texto completo]](full_papers/v05-a01.pdf)
+[[Anexos]](full_papers/v05-a01-anexo.zip)
+
+<div id="v05a01res" class="hidden">
+DISEÑO: Se realizó un estudio descriptivo, prospectivo, de corte transversal con el objeto de evaluar la edad madurativa en niños nacidos a pretérmino que asisten al consultorio de Fisioterapia del hospital San Pablo. Se ha evaluado a 21 pacientes que han asistido al consultorio en el periodo de Octubre 2012 a Enero de 2013. Objetivo: Evaluar la edad madurativa de los pacientes nacidos a pretérmino por medio de la Escala de Brunet-Lezine en niños que asisten al consultorio de fisioterapia en el Hospital Materno Infantil San Pablo. METODOLOGÍA: La evaluación se realizó por medio de la “Escala para medir el Desarrollo Psicomotor de la Primera Infancia Brunet-Lezine” que abarca 4 grandes áreas del desarrollo del niño: P: control postural y motricidad; C: coordinación óculo-motriz y conducta de adaptación a los objetos; L: lenguaje y por último S: sociabilidad o relaciones sociales y personales. RESULTADOS: Entre los resultados más importantes que se obtuvieron fue que la mayoría de los pacientes prematuros poseen un retraso global en el desarrollo psicomotriz al comparar su edad real con la madurativa; y al comparar con la edad corregida al contrario se encuentran dentro de una maduración normal. El sexo más observado fue el masculino, la gran mayoría de los recién nacidos a pretérmino nacieron por cesárea, con bajo peso y la edad gestacional más observada fue de 29 a 31 semanas. Se determina por medio de la escala de Brunet-Lezine la edad de desarrollo motor de un niño hasta los 3 años de edad.
+</div>
+
+- **Efecto de la fisioterapia en el paciente con ictus durante los primeros 24 meses de evolución**  
+Diego Ramón Espínola Garay  
+<a href="javascript:unhide('v05a03res');">[Resumen]</a>
+[[Texto completo]](full_papers/v05-a03.pdf)
+[[Anexos]](full_papers/v05-a03-anexo.zip)
+
+<div id="v05a03res" class="hidden">
+PROPÓSITO: El objetivo de este estudio ha sido comparar la evolución de pacientes con ictus que realizaron y que no realizaron fisioterapia durante los primeros 24 meses luego de la lesión. METODOLOGÍA: Se realizó un seguimiento de 13 pacientes que sufrieron ictus durante 24 meses entre el 2011 y el 2013, realizándose 4 evaluaciones con la escala de Ashworth, Tardieu, Rankin, índice de Barthel, Brunnstrom y escala rango de movilidad. Los datos fueron procesados con el programa informático Microsoft Excel 2007. En el mismo se realizaron las curvas de evolución de los pacientes en las escalas mencionadas y se compararon los resultados de los que realizaron fisioterapia con los que no la realizaron. Además se correlacionaron los resultados de las escalas utilizando el coeficiente de correlación de Pearson y el coeficiente de correlación $r$. RESULTADOS: En los pacientes que no realizaron fisioterapia hubo aumento de la espasticidad, descenso del rango de movilidad y empeoramiento gradual en la evolución global, desde el inicio hasta los 24 meses. Sin embargo, en los pacientes que realizaron fisioterapia el aumento de la espasticidad, la pérdida del rango de movilidad y el empeoramiento en la evolución global se dieron sólo en las primeras semanas, revirtiéndose luego la situación de todos estos parámetros hasta los 12 meses y luego manteniéndose estables. CONCLUSIÓN: Se han encontrado diferencias sustanciales entre los pacientes que realizaron y los que no realizaron fisioterapia en todas las escalas utilizadas. Los pacientes con ictus que realizaron fisioterapia tuvieron un resultado mucho más favorable que los que no la realizaron.
+</div>
+
+- **Características generales del manejo de las vías aéreas en la Unidad de Cuidados Críticos en pacientes con craneotomía descompresiva en el Hospital Nacional de Itauguá**  
+Martín Inmediato Ghetti  
+<a href="javascript:unhide('v05a04res');">[Resumen]</a>
+[[Texto completo]](full_papers/v05-a04.pdf)
+[[Anexos]](full_papers/v05-a04-anexo.zip)
+
+<div id="v05a04res" class="hidden">
+PROPÓSITO: El objetivo de este estudio ha sido identificar un tratamiento para el manejo de las vías aéreas en pacientes con craneotomía descompresiva y ARM, hospitalizados en el Hospital Nacional de Itauguá durante el periodo de Enero a Diciembre del 2014. METODOLOGÍA: Se identificó el tratamiento kinésico para el manejo de las vías aéreas por medio de la observación del registro en las fichas clínicas de las siguientes intervenciones para el tratamiento de secreciones. Se procedió a registrar los valores de la escala de Glasgow en los pacientes para describir el nivel de conciencia de los pacientes así como también obtener información acerca de la afectación de la capacidad neurológica y la evolución durante la estadía del paciente. Se registraron datos de signos vitales además de presión intracraneana (PIC) y el cálculo de la presión de perfusión cerebral (PPC). Estos datos fueron registrados en un cuadro de muestras para el análisis estadístico donde se determinaron las variaciones de los parámetros clínicos desde el ingreso del paciente, hasta finalizar su permanencia en la Unidad de Terapia Intensiva (Óbito/Alta). RESULTADOS: Entre los meses de enero a diciembre de 2014 se observó el ingreso de 26 pacientes en la Unidad de Cuidados Intensivos del Hospital Nacional de Itauguá, el diagnóstico de ingreso más común fue con el 35% de TCE grave. La muestra fue conformada por personas de ambos sexos siendo el porcentaje para el sexo masculino del 81% y para el femenino, un porcentaje del 19%. En general, la edad promedio de la muestra fue de 40.8 $\pm$ 17.3. El valor de la escala de coma de Glasgow al ingreso más bajo fue el 3 en el 58% de la muestra. Al egreso de los pacientes el valor para la Escala de Coma de Glasgow más representativo fue nuevamente el 3 pero con tan solo el 38% de la muestra. En lo que respecta al ámbito de la fisioterapia respiratoria, los cambios de modos ventilatorios se arrojó el dato más significativo siendo el mantenimiento de la modalidad A/C en un 50%. Las movilizaciones pasivas y los cambios posturales se aplicaron en el 73%. Las vibraciones torácicas se realizaron en el 77% de la muestra y por último la AFE se empleó en un 65%. La mortalidad fue del 38% del total de la muestra. CONCLUSIÓN: La fisioterapia respiratoria en la UCI-A, es capaz de proveer al paciente mejoras en cuanto al correcto manejo de las vías aéreas, así como también reducir los días de internación, prevenir infecciones intrahospitalarias y reducir las secuelas neurológicas con una actuación temprana.
+</div>
+
+- **Dispositivo Threshold IMT para el entrenamiento muscular respiratorio vs. fisioterapia respiratoria convencional en los pacientes que estuvieron internados en la Unidad de Terapia Intensiva de Adultos del Instituto Nacional de Enfermedades Respiratorias y del Ambiente (INERAM) en la Ciudad de Asunción, año 2014**  
+María del Carmen González Serafini  
+<a href="javascript:unhide('v05a05res');">[Resumen]</a>
+[[Texto completo]](full_papers/v05-a05.pdf)
+[[Anexos]](full_papers/v05-a05-anexo.zip)
+
+<div id="v05a05res" class="hidden">
+PROPÓSITO: El objetivo de este estudio ha sido comparar la eficacia del Dispositivo utilizado para el Entrenamiento Muscular Respiratorio: Threshold IMT vs los Ejercicios Kinésicos Convencionales en pacientes que estuvieron internados en la UTIA del Instituto Nacional de Enfermedades Respiratorias y del Ambiente (INERAM), 2014. METODOLOGÍA: La población de la investigación fue constituida por 10 pacientes del INERAM, 4 pacientes que fueron entrenados con la Fisioterapia Respiratoria Convencional y otros 6 pacientes que fueron entrenados con el dispositivo Threshold IMT. La muestra está conformada por el 100% de lo establecido como universo o población. El instrumento utilizado para dar sustento a la tarea investigativa de grado fueron las fichas médicas de los pacientes, dispositivo Threshold IMT, PiMax; los resultados y el análisis correspondiente se presentan en la conclusión del trabajo, elaborada en base a los objetivos propuestos por la investigación. Todos los datos mencionados fueron registrados en un cuadro comparativo de muestras para poder así realizar posteriormente el análisis estadístico donde se determinaron las variaciones de los parámetros clínicos desde el inicio del entrenamiento del paciente, hasta el día de su alta final o término de sesión de entrenamiento muscular. Además se hallaron niveles de significancia con sus valores comparativos de dichos entrenamientos. RESULTADOS: La muestra fue conformada por personas de ambos sexos siendo el 70% del sexo masculino y un 30% del sexo femenino. En general, la edad promedio y el desvío estándar de la muestra fue de 36.15 $\pm$ 18.95 años. En lo que respecta al dispositivo Threshold IMT obtuvo mayor significancia en cuanto a los parámetros de los signos vitales, así como los valores de la PiMax, a diferencia de la Fisioterapia Respiratoria Convencional que no presentó mucha significancia. Demostramos que de 6 pacientes evaluados y entrenados con el dispositivo Threshold IMT los 6 pacientes lograron su alta final con un PiMax efectivamente mayor que del inicio; y de 4 pacientes evaluados y entrenados con la Fisioterapia Respiratoria Convencional sólo 2 fueron dados de alta final con un PiMax favorable. CONCLUSIÓN: Es importante destacar que la Fisioterapia Respiratoria Convencional y la utilización del dispositivo Threshold IMT resultan muy favorables en la rehabilitación e inclusive utilizándolos en conjunto con otros dispositivos tienen mayor efectividad en menos tiempo en el paciente.
+</div>
+
+\   
+
+## Medicina
+- **Frecuencia de delitos contra la autonomía sexual en mujeres que consultan en la Cátedra de Clínica Gineco-Obstétrica del Hospital de Clínicas de la Facultad de Ciencias Médicas de la Universidad Nacional de Asunción**  
+Lilian Duarte Ortiz  
+<a href="javascript:unhide('v05a02res');">[Resumen]</a>
+[[Texto completo]](full_papers/v05-a02.pdf)
+[[Anexos]](full_papers/v05-a02-anexo.zip)
+
+<div id="v05a02res" class="hidden">
+En la investigación se analizó la frecuencia de delitos contra la autonomía sexual en mujeres que consultan en la Cátedra de Clínica de Gineco-Obstetricia del Hospital de Clínicas de la Facultad de Ciencias Médicas de la Universidad Nacional de Asunción. El diseño metodológico utilizado fue el observacional descriptivo, de corte transversal y prospectivo. Fueron encuestadas un total de 110 mujeres, en el periodo comprendido de febrero a marzo de 2016. Los resultados obtenidos revelan que el 45% de ellas han sido víctimas de delitos contra la autonomía sexual en algún momento de sus vidas.
+</div>

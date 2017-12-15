@@ -20,8 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 <script type="text/javascript">
   function unhide(divID) {
@@ -46,10 +46,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -199,7 +201,7 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
-  <a href="v06_01.html">Volumen actual</a>
+  <a href="v06_02.html">Volumen actual</a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -223,10 +225,13 @@ $(document).ready(function () {
     <li>
       <a href="v05.html">Vol. 5 (2016)</a>
     </li>
+    <li>
+      <a href="v06_01.html">Vol. 6 (2017) No. 1</a>
+    </li>
   </ul>
 </li>
 <li>
-  <a href="v06_02.html">Artículos en prensa</a>
+  <a href="prensa.html">Artículos en prensa</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -272,7 +277,7 @@ Fax: +595 (021) 203-108, interno 102<br />
 </div>
 </div>
 <div id="comite-cientifico" class="section level2">
-<h2>Comité Científico</h2>
+<h2>Comite Científico</h2>
 <div id="miembros-nacionales" class="section level3">
 <h3>Miembros nacionales</h3>
 <ul>
@@ -306,23 +311,21 @@ Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, 
 <div id="instrucciones-para-autores" class="section level2">
 <h2>Instrucciones para autores</h2>
 <p> </p>
-<ul>
-<li>Todos los artículos de Investigación Original y de Reporte de Casos, incluyendo el texto, tablas, figuras, y dibujos, deberán ser enviados por correo electrónico al Editor-en-Jefe de la Revista. Los archivos enviados tienen que estar etiquetados con nombres apropiados y descriptivos (e.g., GonzalezTexto.doc, Figura1.tif, Tabla3.doc). Los autores deben enviar las tablas y los gráficos como archivos separados, y no incluir las figuras y las tablas dentro del texto del artículo.</li>
-<li>El artículo remitido, incluyendo las referencias bibliográficas y las leyendas, deberá ser tecleado a doble espacio, usando como fuente únicamente Times New Roman 12 puntos color negro. Para superíndices o subíndices se deberá utilizar Times New Roman 10 puntos color negro. El trabajo de investigación deberá ser tecleado en hoja blanca tamaño carta, a carilla simple, y con márgenes de 2.5 cm a cada uno de los lados.</li>
-<li>Cada artículo de Investigación Original deberá contar con las siguientes secciones: a) Página de inicio; b) Resumen; c) Introducción; d) Materiales y métodos; e) Discusión; f) Conclusión; g) Referencias. El título de cada sección deberá ser escrito en mayúsculas y negritas. Cada sección deberá comenzar en una hoja por separado.</li>
-<li>Cada Reporte de Casos deberá contar con las siguientes secciones: a) Página de inicio; b) Resumen; c) Introducción; d) Presentación del caso; e) Discusión; f) Referencias. El título de cada sección deberá ser escrito en mayúsculas y negritas. Cada sección deberá comenzar en una hoja por separado.</li>
-<li>En la página de inicio se deberá incluir el o los nombres de los autores, afiliaciones institucionales o corporativas, 3 a 5 palabras clave, el número total de palabras del artículo, el número total de tablas o figuras, y la dirección de correo, teléfono, fax, y correo electrónico del autor corresponsal. Asimismo, cualquier reconocimiento colaborativo, subsidios, o financiamiento deberá ser incluido en la página de inicio.</li>
-<li>El número máximo de palabras que puede contener el artículo de Investigación Original es de 6.000 palabras, incluyendo el texto, las referencias, las tablas, y las leyendas de las figuras. El Resumen no deberá contener más de 250 palabras.</li>
-<li>El número máximo de palabras que puede contener el Reporte de Casos es de 2.500 palabras, incluyendo el texto, las referencias, las tablas, y las leyendas de las figuras. El Resumen no deberá contener más de 150 palabras.</li>
-<li>Los autores podrán usar abreviaciones estándar sin explicaciones. Las abreviaciones no estándares deberán ser definidas cuando aparezcan por primera vez, y luego abreviadas de ahí en adelante. El uso de letras griegas, cursivas, superíndices y subíndices está permitido, y deberá ser consistente en todo el artículo.</li>
-<li>Los autores deberán incluir las citas bibliográficas entre corchetes en el texto y escribir la referencia al final del texto. Las referencias bibliográficas deben ser insertadas en el orden de citación y numeradas consecutivamente. No se aceptarán más de 30 referencias bibliográficas para artículos de Investigación Original y más de 15 para Reporte de Casos. Las citas y las referencias bibliográficas deberán conformarse a lo establecido en las Normas de Vancouver.</li>
-<li>Las “comunicaciones personales” y las “observaciones no publicadas” deben ser especificadas en el texto pero excluidas de la bibliografía. La información contenida en artículos enviados para evaluación pero todavía no aceptados para publicación debe ser citada en el texto como “observaciones no publicadas”.</li>
-<li>Cada artículo de Investigación Original o Reporte de Casos podrá contener un número ilimiatdo de figuras y tablas. Las imágenes deberán tener el formato TIF o EPS. Para crear dibujos se deberán utilizar programas de diseño gráfico como PhotoShop o Illustrator, y no PowerPoint, CorelDraw, o Harvard Graphics. Las imágenes a color y las en blanco y negro deberán ser CMYK, de por lo menos 600 DIP de resolución. Las combinaciones de figuras en escala de grises y dibujos deberán tener al menos 1200 DPI. Los dibujos (sean en color o en blanco y negro) deberán tener por lo menos 1200 DPI.</li>
-<li>Ilustraciones, tablas, y citaciones extensas que hayan sido tomadas de otra fuentes deberán ser identificadas plenamente, indicando el autor original y el sitio de publicación previo. Se deberá obtener permiso escrito del autor y de la editorial en estos casos. Los autores serán responsables por obtener el permiso para el uso, tanto impreso como electrónico, de todos los materiales publicados previamente, siendo también responsables de cubrir los costos asociados con la obtención de estos permisos. Los documentos que avalan tales permisos deberán ser enviados junto con el artículo.</li>
-<li>Acompañando a las copias del trabajo de investigación se deberá enviar una carta de presentación dirigida al Editor-en-Jefe de la Revista en la que conste el título del artículo, los autores, la especificación de que todos los autores han revisado y aprobado el artículo remitido (en el caso de que haya más de un autor), y la especificación de que el artículo no ha sido publicado anteriormente ni se encuentra bajo consideración de publicación en ninguna revista o cualquier medio de difusión escrita o digital. La carta de presentación deberá ser firmada por el autor corresponsal.</li>
-<li>Los artículos revisados deben incluir además un documento por separado con la respuesta a los comentarios de los revisores. El orden preferido para estos documentos es el siguiente: carta de presentación, respuesta a los revisores (únicamente en los artículos revisados), documentos del artículo, tablas, y figuras.</li>
-<li>Los artículos que no cumplan con todos estos requerimientos serán devueltos a los autores para su corrección.</li>
-</ul>
+<p>Todos los artículos de Investigación Original y de Reporte de Casos, incluyendo el texto, tablas, figuras, y dibujos, deberán ser enviados por correo electrónico al Editor-en-Jefe de la Revista. Los archivos enviados tienen que estar etiquetados con nombres apropiados y descriptivos (e.g., GonzalezTexto.doc, Figura1.tif, Tabla3.doc). Los autores deben enviar las tablas y los gráficos como archivos separados, y no incluir las figuras y las tablas dentro del texto del artículo.</p>
+<p>El artículo remitido, incluyendo las referencias bibliográficas y las leyendas, deberá ser tecleado a doble espacio, usando como fuente únicamente Times New Roman 12 puntos color negro. Para superíndices o subíndices se deberá utilizar Times New Roman 10 puntos color negro. El trabajo de investigación deberá ser tecleado en hoja blanca tamaño carta, a carilla simple, y con márgenes de 2.5 cm a cada uno de los lados.</p>
+<p>Cada artículo de Investigación Original deberá contar con las siguientes secciones: a) Página de inicio; b) Resumen; c) Introducción; d) Materiales y métodos; e) Discusión; f) Conclusión; g) Referencias. El título de cada sección deberá ser escrito en mayúsculas y negritas. Cada sección deberá comenzar en una hoja por separado.</p>
+<p>Cada Reporte de Casos deberá contar con las siguientes secciones: a) Página de inicio; b) Resumen; c) Introducción; d) Presentación del caso; e) Discusión; f) Referencias. El título de cada sección deberá ser escrito en mayúsculas y negritas. Cada sección deberá comenzar en una hoja por separado.</p>
+<p>En la página de inicio se deberá incluir el o los nombres de los autores, afiliaciones institucionales o corporativas, 3 a 5 palabras clave, el número total de palabras del artículo, el número total de tablas o figuras, y la dirección de correo, teléfono, fax, y correo electrónico del autor corresponsal. Asimismo, cualquier reconocimiento colaborativo, subsidios, o financiamiento deberá ser incluido en la página de inicio.</p>
+<p>El número máximo de palabras que puede contener el artículo de Investigación Original es de 6.000 palabras, incluyendo el texto, las referencias, las tablas, y las leyendas de las figuras. El Resumen no deberá contener más de 250 palabras.</p>
+<p>El número máximo de palabras que puede contener el Reporte de Casos es de 2.500 palabras, incluyendo el texto, las referencias, las tablas, y las leyendas de las figuras. El Resumen no deberá contener más de 150 palabras.</p>
+<p>Los autores podrán usar abreviaciones estándar sin explicaciones. Las abreviaciones no estándares deberán ser definidas cuando aparezcan por primera vez, y luego abreviadas de ahí en adelante. El uso de letras griegas, cursivas, superíndices y subíndices está permitido, y deberá ser consistente en todo el artículo.</p>
+<p>Los autores deberán incluir las citas bibliográficas entre corchetes en el texto y escribir la referencia al final del texto. Las referencias bibliográficas deben ser insertadas en el orden de citación y numeradas consecutivamente. No se aceptarán más de 30 referencias bibliográficas para artículos de Investigación Original y más de 15 para Reporte de Casos. Las citas y las referencias bibliográficas deberán conformarse a lo establecido en las Normas de Vancouver.</p>
+<p>Las “comunicaciones personales” y las “observaciones no publicadas” deben ser especificadas en el texto pero excluidas de la bibliografía. La información contenida en artículos enviados para evaluación pero todavía no aceptados para publicación debe ser citada en el texto como “observaciones no publicadas”.</p>
+<p>Cada artículo de Investigación Original o Reporte de Casos podrá contener un número ilimiatdo de figuras y tablas. Las imágenes deberán tener el formato TIF o EPS. Para crear dibujos se deberán utilizar programas de diseño gráfico como PhotoShop o Illustrator, y no PowerPoint, CorelDraw, o Harvard Graphics. Las imágenes a color y las en blanco y negro deberán ser CMYK, de por lo menos 600 DIP de resolución. Las combinaciones de figuras en escala de grises y dibujos deberán tener al menos 1200 DPI. Los dibujos (sean en color o en blanco y negro) deberán tener por lo menos 1200 DPI.</p>
+<p>Ilustraciones, tablas, y citaciones extensas que hayan sido tomadas de otra fuentes deberán ser identificadas plenamente, indicando el autor original y el sitio de publicación previo. Se deberá obtener permiso escrito del autor y de la editorial en estos casos. Los autores serán responsables por obtener el permiso para el uso, tanto impreso como electrónico, de todos los materiales publicados previamente, siendo también responsables de cubrir los costos asociados con la obtención de estos permisos. Los documentos que avalan tales permisos deberán ser enviados junto con el artículo.</p>
+<p>Acompañando a las copias del trabajo de investigación se deberá enviar una carta de presentación dirigida al Editor-en-Jefe de la Revista en la que conste el título del artículo, los autores, la especificación de que todos los autores han revisado y aprobado el artículo remitido (en el caso de que haya más de un autor), y la especificación de que el artículo no ha sido publicado anteriormente ni se encuentra bajo consideración de publicación en ninguna revista o cualquier medio de difusión escrita o digital. La carta de presentación deberá ser firmada por el autor corresponsal.</p>
+<p>Los artículos revisados deben incluir además un documento por separado con la respuesta a los comentarios de los revisores. El orden preferido para estos documentos es el siguiente: carta de presentación, respuesta a los revisores (únicamente en los artículos revisados), documentos del artículo, tablas, y figuras.</p>
+<p>Los artículos que no cumplan con todos estos requerimientos serán devueltos a los autores para su corrección.</p>
 </div>
 </div>
 

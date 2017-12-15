@@ -23,8 +23,8 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <script type="text/javascript">
   function unhide(divID) {
     var item = document.getElementById(divID);
@@ -48,10 +48,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -296,7 +298,7 @@ div.tocify {
   </a>
 </li>
 <li>
-  <a href="v06_01.html">Volumen actual</a>
+  <a href="v06_02.html">Volumen actual</a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -320,10 +322,13 @@ div.tocify {
     <li>
       <a href="v05.html">Vol. 5 (2016)</a>
     </li>
+    <li>
+      <a href="v06_01.html">Vol. 6 (2017) No. 1</a>
+    </li>
   </ul>
 </li>
 <li>
-  <a href="v06_02.html">Artículos en prensa</a>
+  <a href="prensa.html">Artículos en prensa</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">

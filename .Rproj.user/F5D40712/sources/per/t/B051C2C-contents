@@ -1,0 +1,38 @@
+output:
+  html_document:
+    theme: yeti
+    toc: yes
+    toc_float: yes
+    css: style.css
+    includes:
+      in_header: header.html
+    fig_caption: yes
+    toc_numbered: yes
+    lib_dir: site_libs
+    self_contained: no
+navbar:
+  title: Revista UniNorte de Medicina y Ciencias de la Salud
+  left:
+  - icon: fa-home
+    href: index.html
+  - text: Volumen actual
+    href: v06_02.html
+  - text: Volúmenes previos
+    menu:
+    - text: Vol. 1 (2012)
+      href: v01.html
+    - text: Vol. 2 (2013)
+      href: v02.html
+    - text: Vol. 3 (2014)
+      href: v03.html
+    - text: Vol. 4 (2015)
+      href: v04.html
+    - text: Vol. 5 (2016)
+      href: v05.html
+    - text: Vol. 6 (2017) No. 1
+      href: v06_01.html
+  - text: Artículos en prensa
+    href: prensa.html
+output_dir: '.'
+name: MedicinaOnLine
+

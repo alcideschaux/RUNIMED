@@ -20,8 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 <script type="text/javascript">
   function unhide(divID) {
@@ -46,10 +46,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -199,7 +201,7 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
-  <a href="v06_01.html">Volumen actual</a>
+  <a href="v06_02.html">Volumen actual</a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -223,10 +225,13 @@ $(document).ready(function () {
     <li>
       <a href="v05.html">Vol. 5 (2016)</a>
     </li>
+    <li>
+      <a href="v06_01.html">Vol. 6 (2017) No. 1</a>
+    </li>
   </ul>
 </li>
 <li>
-  <a href="v06_02.html">Artículos en prensa</a>
+  <a href="prensa.html">Artículos en prensa</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -252,7 +257,7 @@ $(document).ready(function () {
 <ul>
 <li><strong>Colonización intestinal por enterococos resistentes a vancomicina en pacientes pediátricos que acudieron al Hospital Central del IPS, desde marzo del 2011 a setiembre del 2012</strong><br />
 Jessica Colmán<br />
-<a href="javascript:unhide('v03a01res');">[Resumen]</a> <a onClick="inPrep()">[Texto completo]</a></li>
+<a href="javascript:unhide('v03a01res');">[Resumen]</a> <a href="full_papers/v03-a01.pdf">[Texto completo]</a> <a href="full_papers/v03-a01-anexo.zip">[Anexos]</a></li>
 </ul>
 <div id="v03a01res" class="hidden">
 <p>Los Enterecocos del Grupo D son gram positivos y estån representados por <em>E. faecalis</em> y <em>E. faecium</em>, asociados a distintas infecciones nosocomiales, principalmente neumonia. La vancomicina es un antibiótico que inhibe la síntesis de la pared bacteriana. En este estudio encontramos que en el Hospital Central del IPS existe una prevalencia del 47% de enterococos vancomicina resistentes en los pacientes portadores de enterococos.</p>
@@ -260,15 +265,15 @@ Jessica Colmán<br />
 <ul>
 <li><strong>Alteración de parámetros bioquímicos en niños epilépticos de 5 a 10 años tratados con ácido valproico en el Centro Neurológico del Hospital de Clínicas del mes de febrero de 2013</strong><br />
 Romina Ozuna<br />
-<a href="javascript:unhide('v03a02res');">[Resumen]</a> <a onClick="inPrep()">[Texto completo]</a></li>
+<a href="javascript:unhide('v03a02res');">[Resumen]</a> <a href="full_papers/v03-a02.pdf">[Texto completo]</a> <a href="full_papers/v03-a02-anexo.zip">[Anexos]</a></li>
 </ul>
 <div id="v03a02res" class="hidden">
-<p>La epilepsia es una enfermedad neurológica caracterizada por la descarga descontrolada de grupos neuronales mås o menos diseminados. El åcido valproico es un anticonvulsivante muy utilizado en el tratamiento de la epilepsia. Las alteraciones bioquímicas mås frecuentes son la elevación de AST, ALT y fosfatasa alcalina.</p>
+<p>La epilepsia es una enfermedad neurológica caracterizada por la descarga descontrolada de grupos neuronales mås o menos diseminados. El ácido valproico es un anticonvulsivante muy utilizado en el tratamiento de la epilepsia. Las alteraciones bioquímicas mås frecuentes son la elevación de AST, ALT y fosfatasa alcalina.</p>
 </div>
 <ul>
 <li><strong>Frecuencia de aislamientos de <em>Klebsiella pneumoniae</em> multiresistente y factores asociados en pacientes internados en el Hospital Geriátrico Dr. Boungermini del Instituto de Previsión Social</strong><br />
-Romina Pérez<br />
-<a href="javascript:unhide('v03a04res');">[Resumen]</a> <a onClick="inPrep()">[Texto completo]</a></li>
+Romina P?rez<br />
+<a href="javascript:unhide('v03a04res');">[Resumen]</a> <a href="full_papers/v03-a04.pdf">[Texto completo]</a> <a href="full_papers/v03-a04-anexo.zip">[Anexos]</a></li>
 </ul>
 <div id="v03a04res" class="hidden">
 <p>La <em>Klebsiella pneumoniae</em> es una bacteria gram negativa asociada a infecciones nosocomiales. Se las clasifica como “multirresistentes” cuando presentan resistencia a tres o mås familias de antibióticos. La frecuencia de Klebsiella pneumoniae multirresistente llegó hasta 16% y en estos casos estuvo asociada casi siempre a enfermedades respiratorias como neumonía adquirida en la comunidad y/o enfermedad pulmonar obstructiva crónica.</p>
@@ -276,8 +281,7 @@ Romina Pérez<br />
 <ul>
 <li><strong>Prevalencia de microorganismos asociados a infecciones vaginales en mujeres embarazadas</strong><br />
 Noemí Insfrán<br />
-Betina S. Katz, Katia R. M. Leite<br />
-<a href="javascript:unhide('v03a08res');">[Resumen]</a> <a onClick="inPrep()">[Texto completo]</a></li>
+<a href="javascript:unhide('v03a08res');">[Resumen]</a> <a href="full_papers/v03-a08.pdf">[Texto completo]</a> <a href="full_papers/v03-a08-anexo.zip">[Anexos]</a></li>
 </ul>
 <div id="v03a08res" class="hidden">
 <p>La mayor prevalencia de infecciones vaginales en mujeres embarazadas es de origen bacteriano, seguido por el micótico, la presencia de <em>Trichomonas</em> e infecciones mixtas. Las infecciones vaginales en mujeres embarazadas son mås comunes en el tercer trimestre de gestación y menos frecuentes en el primer trimestre.</p>
@@ -289,7 +293,7 @@ Betina S. Katz, Katia R. M. Leite<br />
 <ul>
 <li><strong>Frecuencia del desarrollo de ateromas a nivel cardiaco y cerebral en pacientes fumadores activos adultos que acudieron al Hospital de Clínicas</strong><br />
 Sindy Rojas<br />
-<a href="javascript:unhide('v03a03res');">[Resumen]</a> <a onClick="inPrep()">[Texto completo]</a></li>
+<a href="javascript:unhide('v03a03res');">[Resumen]</a> <a href="full_papers/v03-a03.pdf">[Texto completo]</a> <a href="full_papers/v03-a03-anexo.zip">[Anexos]</a></li>
 </ul>
 <div id="v03a03res" class="hidden">
 <p>Los ateromas son lesiones en las arterias que tienden a crecer y eventualmente desprenderse y desencadenar un fenómeno de tromboembolismo capaz de bloquear el riego sanguíneo en alguna arteria mås pequeña, ocasionando un Accidente Cerebro Vascular o un Infarto de Miocardio. El håbito tabáquico es una de las conductas de mayor asociación con este fenómeno. La frecuencia de producción de ateromas en hombres fumadores fue de 72% y en mujeres fumadoras fue de 28%.</p>
@@ -297,7 +301,7 @@ Sindy Rojas<br />
 <ul>
 <li><strong>Características clínicas y anatomopatológicas de la variedad papilar del carcinoma escamoso de pene</strong><br />
 Alcides Chaux, César Aponte<br />
-<a href="javascript:unhide('v03a06res');">[Resumen]</a> <a onClick="inPrep()">[Texto completo]</a></li>
+<a href="javascript:unhide('v03a06res');">[Resumen]</a> <a href="full_papers/v03-a06.pdf">[Texto completo]</a> <a href="full_papers/v03-a06-anexo.zip">[Anexos]</a></li>
 </ul>
 <div id="v03a06res" class="hidden">
 <p>Los carcinomas peneanos escamosos representan variadas manifestaciones neoplåsicas que pueden clasificarse según el riesgo de metástasis. Dentro del grupo con bajo potencial metaståsico se incluye a los subtipos verrucoso, condilomatoso y papilar. La variedad papilar se presenta sobre todo después de los 50 años de edad. Compromete siempre el glande, ademås de otras estructuras anat6micas.</p>
@@ -305,15 +309,15 @@ Alcides Chaux, César Aponte<br />
 <ul>
 <li><strong>Traumas físicos más frecuentes en personas que acudieron con accidentes en motocicletas en el área de neurocirugía del Centro de Emergencias Médicas (CEM) durante el primer trimestre de 2013</strong><br />
 Melanie Aranda, Zulma Correa<br />
-<a href="javascript:unhide('v03a07res');">[Resumen]</a> <a onClick="inPrep()">[Texto completo]</a></li>
+<a href="javascript:unhide('v03a07res');">[Resumen]</a> <a href="full_papers/v03-a07.pdf">[Texto completo]</a> <a href="full_papers/v03-a07-anexo.zip">[Anexos]</a></li>
 </ul>
 <div id="v03a07res" class="hidden">
 <p>Los traumas físicos que se presentan más frecuentemente en el área de neurocirugía del Centro de Emergencias Médicas son traumatismos craneoencefålicos leves, seguidos por lesiones en el malar, el maxilar y la mandíbula. La mayoría de los pacientes son hombres cuya edad oscilan entre 5 y 15 años.</p>
 </div>
 <ul>
 <li><strong>Cinco casos de dengue neonatal en el Servicio de Neonatología del Hospital Central del Instituto de Previsión Social de Asunción, Paraguay</strong><br />
-Ángel Canás, Marcelo Arango<br />
-<a href="javascript:unhide('v03a09res');">[Resumen]</a> <a onClick="inPrep()">[Texto completo]</a></li>
+?ngel Can?s, Marcelo Arango<br />
+<a href="javascript:unhide('v03a09res');">[Resumen]</a> <a href="full_papers/v03-a09.pdf">[Texto completo]</a> <a href="full_papers/v03-a09-anexo.zip">[Anexos]</a></li>
 </ul>
 <div id="v03a09res" class="hidden">
 <p>Actualmente existe un mayor temor de que incremente el riesgo de infecci6n por el virus del dengue durante el embarazo debido al aumento de la gravedad de las últimas epidemias ocurridas en el Paraguay. Las consecuencias sobre el feto y el recién nacido por transmisi6n vertical del dengue estån poco descriptas y reportadas tanto a nivel nacional como internacional.</p>
@@ -325,7 +329,7 @@ Melanie Aranda, Zulma Correa<br />
 <ul>
 <li><strong>Conocimientos y prácticas de docentes de la Facultad de Odontología de la Universidad Nacional de Asunción hacia el tabaquismo, en el año 2010</strong><br />
 Milner Morel<br />
-<a href="javascript:unhide('v03a05res');">[Resumen]</a> <a onClick="inPrep()">[Texto completo]</a></li>
+<a href="javascript:unhide('v03a05res');">[Resumen]</a> <a href="full_papers/v03-a05.pdf">[Texto completo]</a> <a href="full_papers/v03-a05-anexo.zip">[Anexos]</a></li>
 </ul>
 <div id="v03a05res" class="hidden">
 <p>La mayoría de los docentes de odontologia de la Universidad Nacional de Asunción tiene conocimientos suficientes sobre el tabaco para considerarlo nocivo para la salud. Consideran que el tabaco repercute en la salud general y bucal. En cuanto a patología asociada al órgano dentario, enumeran sus afecciones por orden de frecuencia en manchas amarillas en los dientes, halitosis y cáncer.</p>

@@ -1,0 +1,93 @@
+---
+output:
+    html_document:
+        toc: false
+---
+
+# {.tabset .tabset-pills .tabset-fade}
+## Acerca de
+### Misión
+La misión de la **Revista UniNorte de Medicina y Ciencias de la Salud** es la de publicar artículos del área de Ciencias de la Salud que contribuyan al mejor entendimiento de las enfermedades humanas, incluyendo la biología, etiología, patogénesis, fisiopatología, diagnóstico clínico y laboratorial, tratamiento, pronóstico, y seguimiento clínico, manteniendo elevados estándares internacionales de calidad científica. Los artículos se publican sin costos para los autores.
+
+
+### Alcance
+La Revista acepta libremente artículos científicos de Investigación Original y de Reporte de Casos de cualquiera de las áreas de las Ciencias de la Salud, incluyendo Bioquímica, Odontología, Enfermería, Nutrición, Psicología, Fisioterapia y Kinesiología, Medicina y ciencias relacionadas. La revista publica además Editoriales, Revisiones, y Perspectivas en Medicina.
+
+## Comité Editorial
+### Editor-en-Jefe
+**Alcides Chaux, M.D.**  
+Universidad del Norte  
+Dirección de Investigación y Divulgación Científica  
+Gral. Santos e/ 25 de Mayo  
+Teléfono: +595 (021) 203-108, interno 148  
+Fax: +595 (021) 203-108, interno 102  
+alcideschaux@uninorte.edu.py  
+
+\   
+
+## Comite Científico
+### Miembros nacionales
+- **Juan Carlos Chaparro, M.D.**  
+Facultad de Medicina, Universidad del Norte, Asunción, Paraguay
+
+- **Beatriz Bontempi de Rodríguez-Alcalá, D.D.S.**  
+Facultad de Ciencias de la Salud, Universidad del Norte, Asunción, Paraguay
+
+\   
+
+### Miembros internacionales
+- **George J. Netto, M.D.**  
+University of Alabama School of Medicine, University of Alabama at Birmingham, Alabama, USA
+
+- **Aaron Ciechanover, Ph.D.**  
+The Rappaport Faculty of Medicine and Research e Institute, Technion-Israel Institute of Technology, Israel - Premio Nobel de Química 2004
+
+- **Marc D. Basson, M.D., Ph.D., MBA., FACS**  
+College of Human Medicine, Michigan State University, USA
+
+- **Hiroshi Miyamoto, M.D., Ph.D.**  
+University of Rochester Medical Center, Rochester, New York, USA
+
+- **Bora Gurel, M.D.**  
+Amasya Sabuncuoglu Serefeddin Government Hospital, Amasya, Turkey
+
+- **Chris F. Heyns, M.D., Ph.D.**  
+Stellenbosch University & Tygerberg Hospital, Tygerberg, South Africa
+
+- **Michael C. Haffner, M.D., Ph.D.**  
+Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, Maryland, USA
+
+
+## Instrucciones para autores
+
+\   
+
+Todos los artículos de Investigación Original y de Reporte de Casos, incluyendo el texto, tablas, figuras, y dibujos, deberán ser enviados por correo electrónico al Editor-en-Jefe de la Revista. Los archivos enviados tienen que estar etiquetados con nombres apropiados y descriptivos (e.g., GonzalezTexto.doc, Figura1.tif, Tabla3.doc). Los autores deben enviar las tablas y los gráficos como archivos separados, y no incluir las figuras y las tablas dentro del texto del artículo.
+
+El artículo remitido, incluyendo las referencias bibliográficas y las leyendas, deberá ser tecleado a doble espacio, usando como fuente únicamente Times New Roman 12 puntos color negro. Para superíndices o subíndices se deberá utilizar Times New Roman 10 puntos color negro. El trabajo de investigación deberá ser tecleado en hoja blanca tamaño carta, a carilla simple, y con márgenes de 2.5 cm a cada uno de los lados.
+
+Cada artículo de Investigación Original deberá contar con las siguientes secciones: a) Página de inicio; b) Resumen; c) Introducción; d) Materiales y métodos; e) Discusión; f) Conclusión; g) Referencias. El título de cada sección deberá ser escrito en mayúsculas y negritas. Cada sección deberá comenzar en una hoja por separado.
+
+Cada Reporte de Casos deberá contar con las siguientes secciones: a) Página de inicio; b) Resumen; c) Introducción; d) Presentación del caso; e) Discusión; f) Referencias. El título de cada sección deberá ser escrito en mayúsculas y negritas. Cada sección deberá comenzar en una hoja por separado.
+
+En la página de inicio se deberá incluir el o los nombres de los autores, afiliaciones institucionales o corporativas, 3 a 5 palabras clave, el número total de palabras del artículo, el número total de tablas o figuras, y la dirección de correo, teléfono, fax, y correo electrónico del autor corresponsal. Asimismo, cualquier reconocimiento colaborativo, subsidios, o financiamiento deberá ser incluido en la página de inicio.
+
+El número máximo de palabras que puede contener el artículo de Investigación Original es de 6.000 palabras, incluyendo el texto, las referencias, las tablas, y las leyendas de las figuras. El Resumen no deberá contener más de 250 palabras.
+
+El número máximo de palabras que puede contener el Reporte de Casos es de 2.500 palabras, incluyendo el texto, las referencias, las tablas, y las leyendas de las figuras. El Resumen no deberá contener más de 150 palabras.
+
+Los autores podrán usar abreviaciones estándar sin explicaciones. Las abreviaciones no estándares deberán ser definidas cuando aparezcan por primera vez, y luego abreviadas de ahí en adelante. El uso de letras griegas, cursivas, superíndices y subíndices está permitido, y deberá ser consistente en todo el artículo.
+
+Los autores deberán incluir las citas bibliográficas entre corchetes en el texto y escribir la referencia al final del texto. Las referencias bibliográficas deben ser insertadas en el orden de citación y numeradas consecutivamente. No se aceptarán más de 30 referencias bibliográficas para artículos de Investigación Original y más de 15 para Reporte de Casos. Las citas y las referencias bibliográficas deberán conformarse a lo establecido en las Normas de Vancouver.
+
+Las “comunicaciones personales” y las “observaciones no publicadas” deben ser especificadas en el texto pero excluidas de la bibliografía. La información contenida en artículos enviados para evaluación pero todavía no aceptados para publicación debe ser citada en el texto como “observaciones no publicadas”.
+
+Cada artículo de Investigación Original o Reporte de Casos podrá contener un número ilimiatdo de figuras y tablas. Las imágenes deberán tener el formato TIF o EPS. Para crear dibujos se deberán utilizar programas de diseño gráfico como PhotoShop o Illustrator, y no PowerPoint, CorelDraw, o Harvard Graphics. Las imágenes a color y las en blanco y negro deberán ser CMYK, de por lo menos 600 DIP de resolución. Las combinaciones de figuras en escala de grises y dibujos deberán tener al menos 1200 DPI. Los dibujos (sean en color o en blanco y negro) deberán tener por lo menos 1200 DPI.
+
+Ilustraciones, tablas, y citaciones extensas que hayan sido tomadas de otra fuentes deberán ser identificadas plenamente, indicando el autor original y el sitio de publicación previo. Se deberá obtener permiso escrito del autor y de la editorial en estos casos. Los autores serán responsables por obtener el permiso para el uso, tanto impreso como electrónico, de todos los materiales publicados previamente, siendo también responsables de cubrir los costos asociados con la obtención de estos permisos. Los documentos que avalan tales permisos deberán ser enviados junto con el artículo.
+
+Acompañando a las copias del trabajo de investigación se deberá enviar una carta de presentación dirigida al Editor-en-Jefe de la Revista en la que conste el título del artículo, los autores, la especificación de que todos los autores han revisado y aprobado el artículo remitido (en el caso de que haya más de un autor), y la especificación de que el artículo no ha sido publicado anteriormente ni se encuentra bajo consideración de publicación en ninguna revista o cualquier medio de difusión escrita o digital. La carta de presentación deberá ser firmada por el autor corresponsal.
+
+Los artículos revisados deben incluir además un documento por separado con la respuesta a los comentarios de los revisores. El orden preferido para estos documentos es el siguiente: carta de presentación, respuesta a los revisores (únicamente en los artículos revisados), documentos del artículo, tablas, y figuras.
+
+Los artículos que no cumplan con todos estos requerimientos serán devueltos a los autores para su corrección.

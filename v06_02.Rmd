@@ -1,0 +1,71 @@
+---
+title: "Volumen 6 (2017) No. 2"
+output:
+    html_document:
+        toc: false
+---
+
+# Tabla de contenidos
+## Enfermería y Obstetricia
+- **Modos de afrontamiento al estrés por profesionales del área de enfermería de Ciudad del Este que desempeñan roles en diferentes ámbitos** 
+Gladys Isabel Aranda Moreno, Nelson Santander  
+<a href="javascript:unhide('v06_02a01res');">[Resumen]</a>
+<a onClick="inPrep()">[Texto completo]</a>
+
+<div id="v06_02a01res" class="hidden">
+El objetivo de esta investigación es el de comparar perfiles de desgaste en distintos grupos de trabajadores y mostrar la importancia del estrés como efecto de sus condiciones de edad etaria. Para ello se revisaron diversas investigaciones, en las que se analizan sus procesos de trabajo y se estudian sus problemas de salud. Los resultados muestran que, en los perfiles de morbilidad-mortalidad y desgaste, la patología relacionada con el estrés ocupa un lugar relevante. En algunas investigaciones se analiza cómo las exigencias laborales llevan a los profesionales del área de enfermería a realizar un esfuerzo continuo y a una reposición inadecuada de la capacidad de trabajo, y a una constante ansiedad por no poder cumplir satisfactoriamente con las exigencias de las tareas, siendo las repercusiones más inmediatas la fatiga y la patología relacionada con el estrés. Razón demás para demostrar que los mismos desarrollan la capacidad de afrontamiento a ese mismo estrés que sufren.
+</div>
+
+\   
+
+## Bioquímica
+- **Evaluación del transporte de muestras en un centro hospitalario del área capital**  
+Marta Beatriz Amarilla Nuñez  
+<a href="javascript:unhide('v06_02a03res');">[Resumen]</a>
+<a onClick="inPrep()">[Texto completo]</a>
+
+<div id="v06_02a03res" class="hidden">
+Las muestras biológicas son consideradas materiales altamente infecciosos, por lo que es de suma importancia que éstas sean tratadas siguiendo una serie de normas y medidas de bioseguridad para la práctica de toma de muestra y transporte de las mismas. La correcta manipulación y transporte de las muestras disminuyen en gran medida las infecciones intra-hospitalarias, de allí es que el procedimiento para el transporte de las muestras debe realizarse utilizando contenedores que sean rígidos, destinados exclusivamente para el efecto, y que permitan además colocar las muestras de forma vertical. Entre las funciones esenciales de la salud pública se encuentran la prevención, vigilancia y control de enfermedades transmisibles y no transmisibles; salud ocupacional, y la protección del ambiente, por lo que es deber de todo el personal de salud velar por el cumplimiento de estas funciones, así como el de las normas de bioseguridad dentro de los establecimientos sanitarios. Teniendo en cuenta que la salud es el producto resultante de la sumatoria de varios factores como ser la parte social, cultural, ambiental y socio-económico, y que cualquier variación en algunos de estos factores puede desencadenar la presencia de enfermedad, es fundamental que dentro de los establecimientos de salud se cumplan con los requerimientos de bioseguridad y transporte de muestras intra-hospitalaria. Además, el proceso de toma de muestra (fase pre-analítica) es uno de los pasos más importantes y críticos para el laboratorio de análisis clínicos, ya que de esta fase depende la excelencia en el procesamiento de las mismas. La mayoría de los problemas que se observan dentro del laboratorio de análisis clínicos se producen durante la toma de muestra (materiales hemolizados, coagulados, activados, entre otros) y el etiquetado de los tubos (v.g., error en el cargado de los tubos, confusiones de nombre).
+</div>
+
+- **Vaginosis bacteriana: Características clínicas, ginecológicas y microbiológicas relacionadas al diagnóstico y tratamiento**  
+Anahí M. de Chaux  
+<a href="javascript:unhide('v06_02a04res');">[Resumen]</a>
+<a onClick="inPrep()">[Texto completo]</a>
+
+<div id="v06_02a04res" class="hidden">
+La vaginosis bacteriana  es un proceso inflamatorio de la mucosa vaginal que por lo general suele acompañarse de un aumento en la secreción vaginal. Dicha inflamación es causada principalmente por la alteración del equilibrio de la flora vaginal habitual que está presente en la vagina y cuya función es la de regular el pH vaginal y con ello la presencia de bacterias y otros microorganismos en el epitelio vaginal. La VB se define como un síndrome polimicrobiano sinérgico que se caracteriza por disminución de Lactobacillus spp., especialmente los que producen peróxido de hidrógeno, y un intenso crecimiento (100 a 1.000 veces los valores normales) en la cantidad de Garnerella vaginalis y bacterias anaerobias comensales de la vagina, incluida Prevotella spp., cocos anaerobios gram positivos, Mobiluncus spp., M. hominis y A. vaginae. Los microorganismos asociados a la VB se ha relacionado con procesos inflamatorios en el tracto genital, en las membranas fetales y en el líquido amniótico durante el embarazo. La VB se asocia con endometritis, enfermedad pélvica inflamatoria y embarazo pretérmino. La VB presenta un cuadro morfológico característico en el examen citopatológico. En el trabajo de rutina, con la coloración de Papanicolaou y un aumento de 400x, el observador bien entrenado puede apreciar la diferencia entre las células guías y las denominadas "falsas guía" (tapizadas por flora no cocobacilar) con un elevado porcentaje de correlación y sin necesidad de recurrir a objetivos de inmersión. El PAP es un examen que se realiza de rutina y no se requiere una prueba adicional para hacer el diagnóstico. Esto permite disminuir costos al omitir el estudio de la flora vaginal por la coloración de Gram. La citología ginecológica ha mostrado ser de utilidad en el diagnóstico de infecciones cérvico-vaginales, no solo por la sensibilidad y especificidad, sino porque al ser una prueba de tamización a la cual acceden con mayor frecuencia las mujeres. El PAP permite detectar algunas infecciones sin necesidad de recurrir a otros estudios como el examen directo y el Gram, especialmente en aquellas pacientes asintomáticas.
+</div>
+
+\    
+
+## Odontología
+- **Prevalencia de cáncer oral en el Instituto Nacional del Cáncer de Paraguay, de los años 2009 al 2013**  
+Ana Liz Zacaríaz Yunis  
+<a href="javascript:unhide('v06_02a02res');">[Resumen]</a>
+<a onClick="inPrep()">[Texto completo]</a>
+
+<div id="v06_02a02res" class="hidden">
+Se realizó un estudio descriptivo en el Instituto Nacional del Cáncer “Prof. Dr. Manuel Riveros” para analizar la prevalencia del cáncer de la cavidad bucal desde el año 2009  hasta el 2013. Se estudiaron 114 pacientes de un universo de 188 y se excluyeron 74 pacientes con cáncer de glándulas salivales o por no contar con un diagnostico bien definido, ya que no fueron realizados todos los métodos diagnósticos. Se analizaron las variables grupos de edades, sexo, factores de riesgo, localización anatómica y tipo histológico. El procesamiento estadístico se realizó mediante estadística descriptiva, tablas de frecuencias absolutas y relativas. Predominó la enfermedad en pacientes de 51 a 70  años con un número de 76 pacientes (66 %), y el sexo masculino, con 85 pacientes (83 %). Entre los factores etiológicos posibles se detectó que el tabaco, el alcohol y los alimentos calientes, juntos o por separado eran utilizados en 69 pacientes (61 %). Un 36 % de los pacientes no tienen especificados en sus fichas clínicas la presencia o no de estos factores etiológicos.  El carcinoma epidermoide fue la variedad histológica más frecuente (108, para el 95 %). Su localización prevaleció en la lengua (45 casos, para el 39 %), seguido por el de piso de boca (36 casos para el 32%). Los pacientes acudieron con signos y síntomas ya manifiestos de carcinoma bucal, en estadios avanzados lo que impidió un diagnostico precoz y un tratamiento eficaz de la enfermedad.
+</div>
+
+\   
+
+## Medicina
+- **Mal de Pott en paciente con baciloscopia negativa: Reporte de caso**  
+oel Emilio Molinas Argüello, José Manuel Fusillo Ayala, Donoband Edson Dejesus Melgarejo Fariña  
+<a href="javascript:unhide('v06_02a05res');">[Resumen]</a>
+<a onClick="inPrep()">[Texto completo]</a>
+
+<div id="v06_02a05res" class="hidden">
+El Mal de Pott es un tipo de tuberculosis que afecta la columna vertebral, luego de un foco primario pulmonar. Representa el 10–20% de los casos en Paraguay. Su síntoma principal es el dolor y los estudios de imagen característicos ayudan en el diagnóstico. Se presenta el caso de una mujer 42 años que ingresa por cuadro de dolor lumbar de varios meses de evolución. Al examen se evidencia puño-percusión positiva bilateral, además dolor a la palpación de la columna dorsal a nivel torácico y lumbar, siendo el resto del examen normal. La paciente refiere dificultad respiratoria que inicia días antes del ingreso a moderados esfuerzos que exacerba el dolor, además de cuadro respiratorio 1 año atrás, con expectoración en moderada cantidad con estrías de sangre y fetidez. Se realiza TAC de columnas sin contraste donde se ve esclerosis e irregularidad de cuerpos vertebrales D12-L1.
+</div>
+
+- **Uso de la flecainida en la fibrilación auricular de reciente comienzo en pacientes jóvenes**  
+Humberto Sánchez, César Delmás, Sonia Agüero, Aida Arguello, Waldemar Cabrera, Sandra Díaz, Alma Fretes, Flavia Giménez, Katerine Guzmán, Celia Ibáǹez, Pedro Paredes, Romina Valenzuela, Lorena Villalba, Magali Zuárez  
+<a href="javascript:unhide('v06_02a06res');">[Resumen]</a>
+<a onClick="inPrep()">[Texto completo]</a>
+
+<div id="v06_02a06res" class="hidden">
+La fibrilación auricular es una de las arritmias más frecuentes en la práctica clínica, en particular en pacientes de edad avanzada, en los que tiende a ser crónica y permanente. Ello no significa que dicha patología sea exclusiva en ese rango etario, ya que también cada día se presentan nuevos casos en personas jóvenes. A menudo, sobre todo en personas sin cardiopatía, puede presentarse en paroxismos cuya duración oscila desde minutos a varias horas y que ceden de manera espontánea. El tratamiento consiste en ensayar la reversión a ritmo sinusal mediante cardioversión eléctrica o farmacológica, prevenir las recaídas preferentemente con antiarrítmicos  y complicaciones embólicas mediante terapia anticoagulante. En nuestro servicio, el fármaco de elección fue la flecainida IV, previo descarte de patologías cardiacas estructurales y alergias al medicamento. El objetivo de este trabajo es comprobar la eficacia de la flecainida en la reversión a ritmo sinusal  en la fibrilación auricular, de comienzo reciente en pacientes jóvenes, determinar si existe diferencia significativa de la eficacia del fármaco de acuerdo al sexo, así como también la presencia de reacciones adversas en dichos pacientes.
+</div>

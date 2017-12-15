@@ -20,8 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 <script type="text/javascript">
   function unhide(divID) {
@@ -46,10 +46,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -199,7 +201,7 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
-  <a href="v06_01.html">Volumen actual</a>
+  <a href="v06_02.html">Volumen actual</a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -223,10 +225,13 @@ $(document).ready(function () {
     <li>
       <a href="v05.html">Vol. 5 (2016)</a>
     </li>
+    <li>
+      <a href="v06_01.html">Vol. 6 (2017) No. 1</a>
+    </li>
   </ul>
 </li>
 <li>
-  <a href="v06_02.html">Artículos en prensa</a>
+  <a href="prensa.html">Artículos en prensa</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -251,16 +256,16 @@ $(document).ready(function () {
 <h2>Medicina</h2>
 <ul>
 <li><strong>Differences in prostatic biopsy results in patients with prompt and delayed assistance after indication</strong><br />
-Luciana Schultz, Edson S. Bezerra, Matheus V. da Costa, Fábio T. Ferreira, Leandro O. Chiarelli, Maria I. O. Schultz<br />
-<a href="javascript:unhide('v01a01res');">[Resumen]</a> <a onClick="inPrep()">[Texto completo]</a></li>
+Luciana Schultz, Edson S. Bezerra, Matheus V. da Costa, Fabio T. Ferreira, Leandro O. Chiarelli, Maria I. O. Schultz<br />
+<a href="javascript:unhide('v01a01res');">[Resumen]</a> <a href="full_papers/v01-a01.pdf">[Texto completo]</a> <a href="full_papers/v01-a01-anexo.zip">[Anexos]</a></li>
 </ul>
 <div id="v01a01res" class="hidden">
-<p>At prostate cancer screening by serum prostate-specific antigen (PSA) and digital rectal examination (DRE) the interval between the first suspicion of malignancy and the diagnostic procedure may impact on disease treatment and progression. Assistential difficulties of Health Care Providers can postpone prostatic biopsy beyond the 60 days limit recommended by ANS (National Health Agency). Here we compare biopsy results from patients with prompt and delayed assistance. We included165 consecutive patients seen on Public Health Care (May -Oct/2010) of which 76 were biopsied after 6 months from indication (Delayed) and 89 within 3 months (Control). Disease extension was analyzed as to the total and the percentage of cores with cancer (Tcore and Pcore), the total and percentage of mm of cancer (Tmm and Pmm), and the maximum extent of cancer in a single core (ExtMax). Mean total PSA and age at the time of indication and percentage of malignant diagnosis were similar between the two cohorts (65.8 vs. 67.7 years; 10.4 vs. 9.4ng/dl; 46% vs. 42%) as well as disease extension and Gleason score. However, in the population with unilateral disease (n = 40), the Delayed group had higher Tmm, Pmm, Tcore, and Pcore (12.5 vs. 7.5mm; 9.4 vs. 5.7%; 2.62 vs. 2.0 cores; 22 vs. 16%; P &gt;0.05). Five of 24 (21%) patients of the Delayed group had Pmm &gt; 25%, 1:3 had &gt; 25% of Pcore losing criteria for potential T2a; and 1:4 had ExtMax &gt; 50% losing criteria for minimum volume disease (controls: 1/16, 6%; 1:8 and 1:12, respectively). In conclusion, the interval between biopsy indication and procedure seems to impact on disease extension particularly in patients with unilateral disease yielding an agile assistance as a fundamental strategic resource for early diagnosis. Studies on larger cohorts with follow up are needed to confirm these results.</p>
+<p>At prostate cancer screening by serum prostate-specific antigen (PSA) and digital rectal examination (DRE) the interval between the first suspicion of malignancy and the diagnostic procedure may impact on disease treatment and progression. Assistential difficulties of Health Care Providers can postpone prostatic biopsy beyond the 60 days limit recommended by ANS (National Health Agency). Here we compare biopsy results from patients with prompt and delayed assistance. We included165 consecutive patients seen on Public Health Care (May-Oct/2010) of which 76 were biopsied after 6 months from indication (Delayed) and 89 within 3 months (Control). Disease extension was analyzed as to the total and the percentage of cores with cancer (Tcore and Pcore), the total and percentage of mm of cancer (Tmm and Pmm), and the maximum extent of cancer in a single core (ExtMax). Mean total PSA and age at the time of indication and percentage of malignant diagnosis were similar between the two cohorts (65.8 vs. 67.7 years; 10.4 vs. 9.4ng/dl; 46% vs. 42%) as well as disease extension and Gleason score. However, in the population with unilateral disease (n = 40), the Delayed group had higher Tmm, Pmm, Tcore, and Pcore (12.5 vs. 7.5mm; 9.4 vs. 5.7%; 2.62 vs. 2.0 cores; 22 vs. 16%; P &gt;0.05). Five of 24 (21%) patients of the Delayed group had Pmm &gt; 25%, 1:3 had &gt; 25% of Pcore losing criteria for potential T2a; and 1:4 had ExtMax &gt; 50% losing criteria for minimum volume disease (controls: 1/16, 6%; 1:8 and 1:12, respectively). In conclusion, the interval between biopsy indication and procedure seems to impact on disease extension particularly in patients with unilateral disease yielding an agile assistance as a fundamental strategic resource for early diagnosis. Studies on larger cohorts with follow up are needed to confirm these results.</p>
 </div>
 <ul>
 <li><strong>Behavior of prostate ductal adenocarcinoma: A review of 93 cases</strong><br />
 Ali Amin<br />
-<a href="javascript:unhide('v01a02res');">[Resumen]</a> <a onClick="inPrep()">[Texto completo]</a></li>
+<a href="javascript:unhide('v01a02res');">[Resumen]</a> <a href="full_papers/v01-a02.pdf">[Texto completo]</a> <a href="full_papers/v01-a02-anexo.zip">[Anexos]</a></li>
 </ul>
 <div id="v01a02res" class="hidden">
 <p>Prostate ductal adenocarcinoma (PDA) is an uncommon variant of prostate cancer usually identified admixed with prostate acinar adenocarcinoma. This study evaluates the association of PDA and stage, considering the grade of the accompanying acinar carcinoma. In a cohort of 18,552 radical prostatectomy cases performed from 1995 to 2008, 93 cases with a ductal adenocarcinoma component were identified. After classification of cases based on their ductal/acinar ratio (<span class="math inline">\(&lt;\)</span> 10% vs. <span class="math inline">\(\geq\)</span> 10% and <span class="math inline">\(&lt;\)</span> 50% vs. <span class="math inline">\(\geq\)</span> 50%), different staging parameters such as extraprostatic extension (EPE), margin involvement, seminal vesicle invasion (SVI) and lymph node metastasis (LN) were compared. There was no age, race, and serum prostate specific antigen (PSA) difference between patients with and without PDA. Cases with PDA were less likely to be organ confined (36.6% vs. 65.6%) and more likely to show SVI (19.3% vs. 5.3%), P <span class="math inline">\(&lt;\)</span> 0.0001. There was no difference in LN or margin positivity with and without PDA. An increasing percentage of the ductal component correlated with an increased risk of EPE (P=0.04) and SVI (P <span class="math inline">\(&lt;\)</span> 0.0001). In Gleason score 7 cases with <span class="math inline">\(\geq\)</span> 10% ductal differentiation, cases with ductal features were more likely to have nonfocal EPE (64%) compared to cases without ductal features (34.7%), P=0.002. In this group, there was no statistically significant difference in SVI or LN between For Gleason score 7 cases with &lt; 10% ductal features, there was no difference in pathologic stage vs. nonductal cases. There was no difference in pathologic stage between ductal and nonductal cases for Gleason score 8 to 10 cases, regardless of the percentage of the ductal component. In summary, Gleason score 7 cases with admixed low-grade acinar and PDA are associated with more aggressive behavior and higher stages than pure acinar Gleason score 7 carcinomas, as long as the ductal component occupies <span class="math inline">\(\geq\)</span> 10% of the tumor. When PDA occupies <span class="math inline">\(&lt;\)</span> 10% of the prostate carcinoma, the difference does not exist. In Gleason score 8 to 10 tumors with ductal features, it is the high grade acinar carcinoma that determines the behavior, regardless of presence of a ductal component.</p>
@@ -268,7 +273,7 @@ Ali Amin<br />
 <ul>
 <li><strong>Evaluation of p53 immunohistochemical expression using open-source software for digital image analysis: A tissue microarray study of penile squamous cell carcinomas</strong><br />
 Alcides Chaux<br />
-<a href="javascript:unhide('v01a03res');">[Resumen]</a> <a onClick="inPrep()">[Texto completo]</a></li>
+<a href="javascript:unhide('v01a03res');">[Resumen]</a> <a href="full_papers/v01-a03.pdf">[Texto completo]</a> <a href="full_papers/v01-a03-anexo.zip">[Anexos]</a></li>
 </ul>
 <div id="v01a03res" class="hidden">
 <p>The addition of molecular biomarkers is needed to increase the accuracy of pathologic factors as prognosticators of outcome in penile squamous cell carcinomas (SCC). Evaluation of these biomarkers is usually carried out by immunohistochemistry. Herein we assess p53 immunoexpression using freely-available, open-source software packages for digital image analysis. We also compared the results of digital analysis with standard visual estimation. A tissue microarray (TMA) was built using 39 cases of penile SCC. Percentages of p53 positive cells were higher by visual estimation than by digital analysis. However, correlation was high between both methods. In summary, evaluation of p53 immunoexpression is feasible using open-source software packages for digital image analysis. Although our analysis was limited to penile SCC, the rationale should also hold for other tumor types in which evaluation of p53 immunoexpression is required. This approach would reduce interobserver variability, and would provide a standardized method for reporting the results of immunohistochemical stains. As these diagnostic tools are freely-available over the Internet, researchers and practicing pathologists could incorporate them in their daily practice without increasing diagnostic costs.</p>
@@ -276,7 +281,7 @@ Alcides Chaux<br />
 <ul>
 <li><strong>Differentiating intraductal carcinoma of the prostate from high-grade prostatic intraepithelial neoplasia: Why it matters.</strong><br />
 Jeong S. Han, Stephen Lee<br />
-<a href="javascript:unhide('v01a04res');">[Resumen]</a> <a onClick="inPrep()">[Texto completo]</a></li>
+<a href="javascript:unhide('v01a04res');">[Resumen]</a> <a href="full_papers/v01-a04.pdf">[Texto completo]</a> <a href="full_papers/v01-a04-anexo.zip">[Anexos]</a></li>
 </ul>
 <div id="v01a04res" class="hidden">
 <p>Differential diagnosis between intraductal carcinoma of the prostate (IDC-P) and high grade prostatic intraepithelial neoplasm (HGPIN) may show similar morphology and present diagnostic challenges. However, the clinical consequences following each diagnosis are distinct. While IDC-P is most likely associated with high grade invasive carcinoma, HGPIN is a precancerous lesion that is often an isolated finding without accompanying invasive cancer. IDC-P is characterized by solid or dense cribriform architecture with enlarged glands, significant nuclear pleomorphism with markedly enlarged nuclei up to 6 times larger than normal acinar epithelial cells, frequent mitotic figures and frequent comedonecrosis. HGPIN shows cytologic atypia with hyperchromatic nuclei, up to 2-3 times larger nuclei than non-neoplastic epithelium and prominent nucleoli. If a definitive diagnosis cannot be rendered due to overlapping morphologic features, especially in limited biopsy specimens, the borderline status should be reported to recommend a close follow-up.</p>
@@ -284,7 +289,7 @@ Jeong S. Han, Stephen Lee<br />
 <ul>
 <li><strong>Las células Friend como modelo para el estudio de la reprogramación de la diferenciación en células leucémicas</strong><br />
 María José Fernández-Nestosa, Dora B. Krimer<br />
-<a href="javascript:unhide('v01a05res');">[Resumen]</a> <a onClick="inPrep()">[Texto completo]</a></li>
+<a href="javascript:unhide('v01a05res');">[Resumen]</a> <a href="full_papers/v01-a05.pdf">[Texto completo]</a> <a href="full_papers/v01-a05-anexo.zip">[Anexos]</a></li>
 </ul>
 <div id="v01a05res" class="hidden">
 <p>Las líneas celulares derivadas de células eritroleucémicas Friend (células Friend o células MEL) se han venido utilizando como un modelo in vitro para investigar los eventos moleculares que tienen lugar durante la diferenciación de los eritrocitos, así como para el estudio de distintos aspectos en el desarrollo de leucemias. Las líneas celulares MEL poseen características moleculares similares a las de las células tumorales que crecen en los distintos órganos hematopoyéticos y expresan niveles altos de PU.1 y otras proteínas oncogénicas relacionadas con estadios proliferativos. Un atributo extremadamente útil de este modelo in vitro se basa en la capacidad de las células MEL para retomar el programa de diferenciación mediante la utilización de inductores químicos tales como el hexametileno-bisacetamida (HMBA). A pesar del amplio uso en el análisis de la diferenciación celular en investigación básica o en ensayos clínicos como posibles agentes en terapias de diferenciación, el modo de acción de los diferentes inductores químicos es aún desconocido. Se ha sugerido que la activación constitutiva de PU.1 es la causa principal del bloqueo de la diferenciación en los eritroblastos afectados. Sin embargo, estudios recientes demuestran que el modelo del antagonismo PU.1-GATA-1 necesita ser reemplazado por una compleja red de factores de transcripción específicos y no específicos que funcionan en un delicado equilibrio para activar o reprimir el programa de diferenciación eritroide.</p>
@@ -292,7 +297,7 @@ María José Fernández-Nestosa, Dora B. Krimer<br />
 <ul>
 <li><strong>Curing testicular cancer: Just a matter of breaks?</strong><br />
 Michael C. Haffner, Nilda González-Roibón<br />
-<a href="javascript:unhide('v01a06res');">[Resumen]</a> <a onClick="inPrep()">[Texto completo]</a></li>
+<a href="javascript:unhide('v01a06res');">[Resumen]</a> <a href="full_papers/v01-a06.pdf">[Texto completo]</a> <a href="full_papers/v01-a06-anexo.zip">[Anexos]</a></li>
 </ul>
 <div id="v01a06res" class="hidden">
 <p>Almost all solid tumors in adults are incurable once they have spread beyond the primary site. Testicular germ cell tumors (TGCT) represent one of the few exceptions, in which more than 70% of patients with extensive metastatic disease can be cured with chemotherapy. The case of Lance Armstrong, who was diagnosed with an extensive metastatic testicular tumor, treated by surgery and chemotherapy and cured from his cancer, went on to win the Tour de France 7 times. This case clearly highlights one of the major successes of modern oncology, but also raises the question why such success stories are very common in TGCT but rarely seen in other solid tumors. In this essay we would like to address this question by proposing that TGCT cells show major differences in their response to DNA damage as compared to carcinomas. This inadequate DNA damage response (DDR) paired with a low threshold to undergo apoptosis could explain the high chemosensitivity and the success of systemic chemotherapy in TGCT.</p>
@@ -300,7 +305,7 @@ Michael C. Haffner, Nilda González-Roibón<br />
 <ul>
 <li><strong>PIK3CA mutations in bladder cancer: A brief review</strong><br />
 Betina S. Katz, Katia R. M. Leite<br />
-<a href="javascript:unhide('v01a07res');">[Resumen]</a> <a onClick="inPrep()">[Texto completo]</a></li>
+<a href="javascript:unhide('v01a07res');">[Resumen]</a> <a href="full_papers/v01-a07.pdf">[Texto completo]</a> <a href="full_papers/v01-a07-anexo.zip">[Anexos]</a></li>
 </ul>
 <div id="v01a07res" class="hidden">
 <p>The Phosphoinositide 3-kinase (PI3Ks) pathway plays a crucial role in cell growth, proliferation and survival as part of the PI3K-AKT-mammalian target of rapamycin (mTOR) pathway, which deregulation is related to a broad range of cancers. The best known genetic alterations are PTEN loss, AKT mutations and activating point mutations at PI3K. Mutations in PIK3CA, the gene encoding the p110<span class="math inline">\(\alpha\)</span> catalytic subunit of PI3K, were identified as novel mechanisms of inducing oncogenic PI3K signaling and have been reported in many human cancer types including urothelial tract. In this review, we summarize the current knowledge about the role of PIK3CA in bladder cancer and its potential practical applications.</p>
@@ -308,16 +313,15 @@ Betina S. Katz, Katia R. M. Leite<br />
 <ul>
 <li><strong>Características demográficas, patológicas y detección del virus del papiloma humano en el carcinoma peneal: Revisión de estudios realizados en el Paraguay</strong><br />
 Diego F. Sánchez, Fiorella Grillón, Alcides Chaux, Ingrid Rodríguez, José E. Barreto, Antonio L. Cubilla<br />
-Betina S. Katz, Katia R. M. Leite<br />
-<a href="javascript:unhide('v01a08res');">[Resumen]</a> <a onClick="inPrep()">[Texto completo]</a></li>
+<a href="javascript:unhide('v01a08res');">[Resumen]</a> <a href="full_papers/v01-a08.pdf">[Texto completo]</a> <a href="full_papers/v01-a08-anexo.zip">[Anexos]</a></li>
 </ul>
 <div id="v01a08res" class="hidden">
-<p>Existe una variación en la incidencia geográfica del cáncer peneal, con las cifras más elevadas en países de África, América del Sur y Asia (2-4/100.000 habitantes), y las más bajas en los Estados Unidos y Europa (0,3-1/100.000 habitantes). Las causas de esta variación no están del todo claras, pero se cree que están relacionadas con factores epidemiológicos. Varios de estos factores o condiciones han sido reportados como asociados con la alta prevalencia de cáncer peneal. La mayoría de las neoplasias del pene son carcinomas escamosos. Hasta hace poco no se conocía la heterogeneidad morfológica del carcinoma peneal. Se reconocen actualmente cerca de 14 subtipos, la mayoría de los cuales fueron originalmente descritos en el Paraguay. La justificación de la separación de los tumores en diferentes clases se relaciona con la morfología distintiva de estas variedades, su correlación con factores etiológicos como la presencia de HPV, y con factores pronósticos. Cerca de la mitad de los carcinomas peneales son de histología escamosa convencional o tipo usual y el resto corresponde a tipos especiales.</p>
+<p>Existe una variación en la incidencia geográfica del cáncer peneal, con las cifras más elevadas en países de ??frica, América del Sur y Asia (2-4/100.000 habitantes), y las más bajas en los Estados Unidos y Europa (0,3-1/100.000 habitantes). Las causas de esta variación no están del todo claras, pero se cree que están relacionadas con factores epidemiológicos. Varios de estos factores o condiciones han sido reportados como asociados con la alta prevalencia de cáncer peneal. La mayoría de las neoplasias del pene son carcinomas escamosos. Hasta hace poco no se conocía la heterogeneidad morfológica del carcinoma peneal. Se reconocen actualmente cerca de 14 subtipos, la mayoría de los cuales fueron originalmente descritos en el Paraguay. La justificación de la separación de los tumores en diferentes clases se relaciona con la morfología distintiva de estas variedades, su correlación con factores etiológicos como la presencia de HPV, y con factores pronósticos. Cerca de la mitad de los carcinomas peneales son de histología escamosa convencional o tipo usual y el resto corresponde a tipos especiales.</p>
 </div>
 <ul>
 <li><strong>Tubulocystic carcinoma of the kidney</strong><br />
 Salman T. Almalki, Abdulaziz A. Alsalloom, Turki O. Al-Hussain<br />
-<a href="javascript:unhide('v01a09res');">[Resumen]</a> <a onClick="inPrep()">[Texto completo]</a></li>
+<a href="javascript:unhide('v01a09res');">[Resumen]</a> <a href="full_papers/v01-a09.pdf">[Texto completo]</a> <a href="full_papers/v01-a09-anexo.zip">[Anexos]</a></li>
 </ul>
 <div id="v01a09res" class="hidden">
 <p>Tubulocystic carcinoma of the kidney is a recently described unique entity. Initially, it has been described as a low-grade variant of collecting duct carcinoma. However, recent studies have demonstrated close relation to papillary renal cell carcinoma. It has a male preponderance. Macroscopically, it consists of a well-circumscribed tumor composed of multilocular small cystic spaces with spongy cut surface. Microscopically, it composed of well-formed tubules and cysts separated by thin fibrous septa and lined by a single layer of flat, hobnail, or cuboidal epithelial cells with abundant eosinophilic cytoplasm and round nuclei with prominent nucleoli. Tubulocystic carcinoma of the kidney has an indolent behavior with a low potential for metastasis. This review highlights clinical, pathological, immunohistochemical and molecular features of tubulocystic carcinoma of the kidney and discusses the differential diagnosis and prognosis.</p>
@@ -325,7 +329,7 @@ Salman T. Almalki, Abdulaziz A. Alsalloom, Turki O. Al-Hussain<br />
 <ul>
 <li><strong>Divertículos múltiples del esófago medio</strong><br />
 Carlos Arce Aranda, Chong Lee, Laura Goiburu, Ana Soskin, Aníbal Filártiga Lacroix<br />
-<a href="javascript:unhide('v01a10res');">[Resumen]</a> <a onClick="inPrep()">[Texto completo]</a></li>
+<a href="javascript:unhide('v01a10res');">[Resumen]</a> <a href="full_papers/v01-a10.pdf">[Texto completo]</a> <a href="full_papers/v01-a10-anexo.zip">[Anexos]</a></li>
 </ul>
 <div id="v01a10res" class="hidden">
 <p>Los divertículos del esófago se clasifican de acuerdo a su localización. El divertículo de Zenker es una saculación faríngea por encima del esfínter esofágico superior, los del esófago medio se ubican hasta 5 cm por debajo de la carina, y los divertículos epifrénicos se localizan en los últimos 10 cm del órgano. Los divertículos del tercio medio del esófago son infrecuentes; se estima que se presentan entre el 0.02% y el 0.77% de la población. Se presenta un caso de divertículo del esófago medio intervenido quirúrgicamente en el servicio y se hace una revisión de la literatura.</p>
@@ -337,7 +341,7 @@ Carlos Arce Aranda, Chong Lee, Laura Goiburu, Ana Soskin, Aníbal Filártiga Lac
 <ul>
 <li><strong>Prelación de los autores en publicaciones científicas</strong><br />
 Antonio L. Cubilla<br />
-<a href="javascript:unhide('v01a11res');">[Resumen]</a> <a onClick="inPrep()">[Texto completo]</a></li>
+<a href="javascript:unhide('v01a11res');">[Resumen]</a> <a href="full_papers/v01-a11.pdf">[Texto completo]</a></li>
 </ul>
 <div id="v01a11res" class="hidden">
 <p>Existen en nuestro mundo académico no pocas malquerencias resultantes menos de intención dolosa que de un desconocimiento de prácticas en la prelación de los autores en las publicaciones científicas. No hemos encontrado literatura médica ni recomendaciones específicas sobre este tema pero las tradiciones culturales probablemente tengan que ver con los modelos que existan. He observado y experimentado el comportamiento de escritores de investigación clínica y básica de los Estados Unidos de América y lo encuentro en parte razonable. Estos comentarios se referirán a publicaciones originales en revistas serias y no a revisiones, monografías, libros, presentaciones en congresos ni artículos científicos escritos a pedido de algún editor o por cuenta propia.</p>
